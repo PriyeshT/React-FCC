@@ -5,23 +5,23 @@ Components are core of React.
 There are two ways to create a React Component.
 
 1) **Javascript Function**
-..* Component created in this way is called Stateless Functional Component. 
+    1) Component created in this way is called Stateless Functional Component. 
     Stateless Component is one that can receive data and render it, but does not manage or track changes to that data.
 
-..* To create a component with a function, you simply write a JS function that returns a JSX element or null.
+    2) To create a component with a function, you simply write a JS function that returns a JSX element or null.
     The function name should begin with capital letter. (React Requirement)
 
-EXAMPLE:
-```
-const DemoComponent = function() {
-    return (
-        <div className="customComponent"/>
-    );
-}
-```
+    EXAMPLE:
+    ```
+    const DemoComponent = function() {
+        return (
+            <div className="customComponent"/>
+        );
+    }
+    ```
 
-..* Because a JSX component represents HTML, you could put several components together to create a more complex HTML page.
-    This is one of the key advantages of the component architecture React provides. It allows you to compose your UI from many separate, isolated components. This makes it easier to maintain and build complex user interfaces.
+    3) Because a JSX component represents HTML, you could put several components together to create a more complex HTML page.
+    This is one of the key advantages of the component architecture React provides. It allows you to compose your UI from         many separate, isolated components. This makes it easier to maintain and build complex user interfaces.
 
 2) **ES6 Class syntax**
 
