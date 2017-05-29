@@ -1,0 +1,71 @@
+//jquery methods - very important
+
+.before() - inserts content before the selected elements
+.after() - inserts content after the selected elements
+
+.prepend() - inserts content after the opening tag of the selected elements
+.append() - inserts content before the closing tag of the selected elements
+
+a.prepend(b) - adds b to a
+a.prependTo(b) - adds a to b
+
+a.append(b) - adds a to b
+a.appendTo(b) - adds b to a
+
+
+.html(), .text()
+.before(), .after(), .prepend(), .append(), .preprendTo(), .appendTo()
+.attr(), .removeAttr(), .addClass(), .removeClass()
+.each()
+.on('click,...')
+event object(e)
+
+
+
+/// most the below effects change the display property to either none or block
+.hide(), .show(), .toggle()
+
+.fadeIn(), .fadeOut(), .fadeTo(), .fadeToggle()
+
+.slideUp(), .slideDown(), .slideToggle()
+
+.delay(), .stop(), .animate()
+
+.animate() - allows to create our own effects and animations by changing css properties
+
+- you can animate any css property whose value can be represented as a number
+- the css properties are written using camelCase notation
+- css properties are specified using object literal notation
+
+.animate({
+	
+}[,speed][,easing][,complete]);
+
+speed - duration in ms ( can also take slow or fast)
+easing - linear(uniform animation speed) OR swing (speeds up in middle and slower at start and end)
+complete - callback function to call when animation is complete
+
+
+//traversing the DOM
+.find(), .closest() - requires selector as an argument.
+when selector is added the method finds only the elements matching the selector.
+
+.parent(), .parents(), .children(), .siblings(), .next, .nextAll(), .prev(), .prevAll()
+-- this methods can accept selector as an argument.
+
+//Form elements
+:button
+:checkbox - to get better performance always use $('input[type="checkbox"]');
+:checked
+:disabled
+:enabled
+:focus - better performance - $(document.activeElement);
+:file
+:image - [type="image"]
+:input - better performace - select the elements and then use .filter(':input');
+:password - better performance - $('input:password');
+:radio - $('input[name="gender"]:radio')
+:reset
+:selected - better performance - .filter(':selected')
+:submit
+:text -better performance - $('input:text')

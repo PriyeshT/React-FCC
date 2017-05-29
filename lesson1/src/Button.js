@@ -5,7 +5,7 @@ class Button extends Component {
 	render() {
 		return {
 			<div className="button-group">
-			
+				<a href="#" class="btn btn-default">Default</a>
 			</div>
 		};
 	}
