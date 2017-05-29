@@ -1,4 +1,4 @@
-JSX - syntax extension of JavaScript that allows you to write HTML directly within JS. 
+**JSX** - syntax extension of JavaScript that allows you to write HTML directly within JS. 
 To write JS in JSX, include the JS code in curly braces: {'this is treated as JS code'}.
 
 Babel compiles your JSX code into JavaScript.
@@ -7,12 +7,13 @@ JSX should return a single element. This one parent element would wrap all of th
 
 To put comments in JSX, you use the syntax {/* comment here */}
 
-ReactDOM - React's rendering API - used to render the JSX directly to the HTML DOM
+**ReactDOM** - React's rendering API - used to render the JSX directly to the HTML DOM
 
 ReactDOM offers a simple method to render React elements to the DOM:
 ReactDOM.render(componentToRender, targetNode);
 
 EXAMPLE:
+```REACT Code
 const JSX = (
 <div>
 	<h1>Hello World</h1>
@@ -21,6 +22,7 @@ const JSX = (
 );
 
 ReactDOM.render(JSX, document.getElementById('challenge-node'));
+```
 
 In JSX you can no longer use the word 'class' to define HTML classes. This is because, 'class' is a reserved keyword in JS. Instead, JSX uses 'className'.
 
