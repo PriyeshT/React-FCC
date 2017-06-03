@@ -19,3 +19,12 @@ This method is also a best place to attach any event listeners you need to add f
 
 **NOTE** - Always remember to clean up the event listeners in *componentWillMount* method. It is considered a good practice to clean the React components before they are unmounted and destroyed.
 
+*componentWillReceiveProps* is called whenever a component receives props. 
+*componentDidUpdate* is immediately called after a component re-renders.
+
+*Note* rendering and mounting are considered two different things in the component lifecycle. 
+When page first loads, components are mounted, and this is where *componentWillMount* and *componentDidMount* methods are called. After this as state changes, component re-renders themselves. 
+
+*shouldComponentUpdate*
+React provides a lifecycle method you can call when child components receive new *state* or *props*, and declare specifically if the components should update or not. This methods takes *nextProps* and *nextState* as parameters.
+
