@@ -1,5 +1,8 @@
-# React-FCC
-Learning REACT from FreeCodeCamp.com
+**React FCC**
 
-# Online resource
-http://hysterical-amusement.surge.sh/
+Learning React from [Beta FreeCodeCamp] (http://hysterical-amusement.surge.sh/)
+
+Noted down some of the important concepts chapter wise.
+
+Code Sample on [Codepen](https://codepen.io/PriyeshT/full/jmgaXB/)
+
